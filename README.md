@@ -1,111 +1,121 @@
-📊 Google Play Store Real-Time Data Analytics Dashboard
-A Data Analysis & Visualization Project using Python, Plotly, HTML & CSS
+📊 Google Play Store Data Analytics Dashboard (Python + Plotly)
 
-📝 Project Overview
-This project was developed as a part of my internship training with NullClass, under the topic:
-"Learn to Build Real-Time Google Play Store Data Analytics using Python."
+This repository showcases my internship training project at NullClass on the topic:“Learn to Build Real-Time Google Play Store Data Analytics – using Python”
 
-The objective of this project was to simulate a real-world scenario where large-scale app data from the Google Play Store is analyzed, cleaned, visualized, and finally deployed as a web dashboard. The focus was not just on technical implementation, but also on generating meaningful business insights from real-time data and learning the essentials of dashboard deployment.
+🔍 Project Overview
 
-💡 What I Learned
-Throughout this project, I explored and applied various core concepts of data analytics and visualization, which included:
+The goal of this project was to build a real-time interactive dashboard that analyzes Google Play Store data using Python, Plotly, and Jupyter Notebook — and to deploy the output using basic HTML & CSS in a web-friendly format.
 
-🔹 1. Data Cleaning
-The raw dataset was messy and unstructured. My first step involved:
+I worked on various stages of the data pipeline, from cleaning and transforming raw app data to creating visual insights with interactive charts.
 
-Removing missing/null values
+⚙️ Key Concepts Learned & Implemented
 
-Dealing with incorrect and inconsistent data formats
+1) Data Cleaning
 
-Converting currency, app sizes (e.g., MB to GB), and install counts to numerical values
+- Removed duplicates, handled missing values, fixed inconsistent formats.
 
-Removing special characters and handling outliers
+- Ensured column types were properly structured for analysis.
 
-These steps helped in preparing the dataset for analysis and ensured accuracy in insights.
+2) Data Transformation
 
-🔹 2. Data Transformation
-After cleaning, I transformed the data into a format suitable for analysis. This included:
+- Converted and engineered new features like sentiment scores, category grouping, and numeric conversions for installs/revenue.
 
-Aggregating data based on categories and types
+3) Data Analysis
 
-Creating new columns for time-based analysis (e.g., extracting the year from the 'Last Updated' field)
+- Explored user behavior, app performance, sentiment trends, category-wise comparisons, etc.
 
-Calculating total revenue, average ratings, and sentiment scores
+4) Interactive Visualizations with Plotly
 
-Label encoding and categorization for visualization purposes
+- Created dynamic, hoverable, zoomable charts like:
 
-This phase was crucial for uncovering deeper insights that are not directly visible in raw data.
+- Pie Charts (Top Free vs Paid apps)
 
-🔹 3. Data Visualization using Plotly
-I used Plotly to build interactive, visually appealing charts. These included:
+- Bar Graphs (Category-wise Installs & Revenue)
 
-📊 Bar Charts: To show top categories, install counts, revenue by category, and genre popularity
+- Histograms (Ratings distribution)
 
-📈 Line Chart: To visualize trends in app updates over the years
+- Box Plots (Paid vs Free app ratings)
 
-📉 Histogram: To observe rating distribution and sentiment scores
+- Line Graphs (Update trends over years)
 
-🥧 Pie Chart: To depict the percentage of Free vs Paid apps
+- Scatter Charts (Impact of last update on ratings)
 
-🧮 Box Plot: To compare rating behavior between Free and Paid apps
+5) Web Dashboard Deployment
 
-🔁 Scatter Plot: To see the relationship between app updates and user ratings
+- Used HTML and CSS to render the Plotly charts directly in the browser via Jupyter Notebook export.
 
-These charts helped highlight the structure of the Play Store app ecosystem and allowed interactive data exploration.
+🧪 Internship Task Highlights
 
-🔹 4. Web Dashboard Deployment (HTML + CSS)
-To present the visualizations in a user-friendly format, I:
+During the internship phase, I was given a series of hands-on tasks designed to apply my skills in visualization, storytelling, and data analytics. Here's a breakdown of the tasks and tools used:
 
-Exported the Plotly charts as standalone HTML files
+✅ Task 1: Sentiment Distribution – Stacked Bar Chart
 
-Designed a simple yet effective layout using HTML
+Objective: Visualize the distribution of sentiments (positive, neutral, negative) based on user reviews.
 
-Styled the dashboard using basic CSS for dark theme and readability
+- Tools & Techniques Used:
 
-Added Play Store-themed branding for visual appeal
+  - Used Plotly Express to build a stacked bar chart.
 
-This helped simulate a front-end dashboard for stakeholders to interact with real-time data.
+  - Grouped sentiment scores per app category to understand public opinion trends.
 
-📊 Dashboard Highlights (Based on the Image)
-From the visual dashboard:
+  - Applied color gradients to distinguish between sentiment classes.
 
-Top Categories: Family and Game apps dominate the Play Store.
+✅ Task 2: Choropleth Map (6–8 PM IST)
 
-App Type Distribution: Around 93% of the apps are Free, while only a small percentage are Paid.
+Objective: Display regional insights of app data (hypothetical use case).
 
-Rating Distribution: Majority of the apps are rated between 4.0 and 5.0, indicating high user satisfaction.
+- Tools & Techniques Used:
 
-Sentiment Analysis: Mixed sentiments with peaks around neutral to positive values.
+  - Utilized Plotly’s choropleth geo feature to display a map of app usage or reviews across countries.
 
-Installs by Category: Game and Communication apps have the highest number of installs, showing user interest.
+  - Focused on color-coded intensity to reflect engagement volume.
 
-Updates Over Time: The number of updates has surged post-2016, reflecting app developers' efforts to stay competitive.
+- Applied country codes and integrated geographical data.
 
-Revenue Insights: Game apps generate the highest revenue, followed by Social and Productivity apps.
+✅ Task 3: Bubble Chart (5–7 PM IST)
 
-Top Genres: Tools, Entertainment, and Personalization are among the most popular genres.
+Objective: Visualize multi-dimensional data involving installs, ratings, and revenue.
 
-Last Update Impact: Apps updated more recently tend to have slightly higher ratings.
+- Tools & Techniques Used:
 
-Paid vs Free: Paid apps often show higher median ratings, indicating better quality or experience.
+- Created a Plotly bubble chart where:
 
-These insights collectively provide a 360-degree view of the app market on the Google Play Store.
+  - X-axis = Categories
 
-🛠️ Tools & Technologies Used
-Python
+  - Y-axis = Ratings
 
-Pandas & NumPy – for data handling and transformation
+  - Bubble size = Revenue
 
-Plotly Express – for building interactive visualizations
+  - Bubble color = App type
 
-Jupyter Notebook – as the development environment
+- Provided insight on which categories dominate across these metrics.
 
-HTML & CSS – for dashboard layout and styling
+These tasks provided a strong foundation in real-time visualization, multi-variable analysis, and storytelling through data using Python and Plotly.
 
-Google Play Store Dataset – as the primary data source
+📸 Project Screenshot
 
-📌 Project Outcome
-This project helped me gain a comprehensive understanding of the data analytics workflow, from preprocessing raw data to deploying insights in a user-facing dashboard. It sharpened my skills in data wrangling, analytical thinking, visualization, and web integration, and prepared me to apply these skills in real-world industry projects.
+![Screenshot 2025-05-13 205933](https://github.com/user-attachments/assets/9192d0e0-4e31-4050-a1d5-73b1776e33de)
 
-✅ What’s Next?
-I have successfully completed the training project phase of my internship at NullClass. I will now move on to the hands-on industry project, where I’ll apply these learnings in a real-time, live data environment.
+🧑‍💻 Tech Stack
+
+- Python (Pandas, Plotly, NumPy)
+
+- Jupyter Notebook
+
+- HTML + CSS (Basic)
+
+- Excel (for initial data prep)
+
+🏁 What's Next?
+
+With the successful completion of this training project, I have also completed my industry-based internship at NullClass, which involved applying these concepts to real-time tasks and analytics problems. This hands-on experience has significantly enhanced my practical skills in data visualization and dashboard building.
+
+It was a great learning experience throughout the internship, and I am now confident and motivated to take on more real-world, hands-on data analytics projects that align with industry expectations.
+
+👨‍🎓 Author
+
+Rajveer Choudhury 
+B.Tech, ECE | BIT Mesra 
+Aspiring Data Analyst
+
+
