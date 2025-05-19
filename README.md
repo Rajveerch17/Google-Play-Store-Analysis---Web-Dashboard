@@ -96,6 +96,11 @@ These tasks provided a strong foundation in real-time visualization, multi-varia
 
 ![Screenshot 2025-05-13 205933](https://github.com/user-attachments/assets/9192d0e0-4e31-4050-a1d5-73b1776e33de)
 
+Note - This Bubble chart is available only between 5 PM to 7 PM IST
+
+![image](https://github.com/user-attachments/assets/8d550399-e91a-4bc6-8e3c-a534f2693982)
+
+
 🧑‍💻 Tech Stack
 
 - Python (Pandas, Plotly, NumPy)
