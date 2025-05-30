@@ -1,4 +1,4 @@
-📊 Google Play Store Data Analytics Dashboard (Python + Plotly)
+# 📊 Google Play Store Data Analytics Dashboard (Python + Plotly)
 
 This repository showcases my internship training project at NullClass on the topic:“Learn to Build Real-Time Google Play Store Data Analytics – using Python”
 
